@@ -67,7 +67,7 @@
 
     
     function checkAgeRestriction(age) {
-        if (age >= 16) {
+        if (age >= 18) {
             ageGateMessageEl.textContent = " Access Granted: You are old enough to view adult content.";
             ageGateMessageEl.className = "p-4 rounded-xl font-medium border bg-green-50 border-green-200 text-green-800";
         } else {
